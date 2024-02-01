@@ -1,0 +1,105 @@
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/assets/js/scrollreveal.js"></script>
+
+    <script>
+        const particlesOptions = {
+            retinaDetect: true,
+            fpsLimit: 90,
+            fullScreen: {
+                enable: true
+            },
+            particles: {
+                number: {
+                    value: 100,
+                    density: {
+                        enable: true,
+                        area: 1200,
+                    }
+                },
+                color: {
+                    value: [
+                        "<%= tailwind.theme.extend.colors['secondary-txt'] %>",
+                        "<%= tailwind.theme.extend.colors['primary-txt'] %>",
+                    ],
+                },
+                size: {
+                    random: {
+                        enable: true,
+                        minimumValue: 2,
+                        maximumValue: 4
+                    }
+                },
+                links: {
+                    enable: true,
+                    distance: 120,
+                    color: '999',
+                    opacity: 0.9,
+                    width: 1,
+                    consent: false,
+                    blink: false,
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    outMode: 'bounce',
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200,
+                    },
+                },
+            },
+            interactivity: {
+                detectsOn: 'window',
+                events: {
+                    onHover: {
+                        enable: true,
+                        mode: 'repulse',
+                    },
+                    onClick: {
+                        enable: false,
+                        mode: 'push',
+                    },
+                    resize: true,
+                },
+                modes: {
+                    attract: {
+                        distance: 100,
+                        duration: 1,
+                        speed: 5,
+                    },
+                    bubble: {
+                        distance: 400,
+                        size: 40,
+                        duration: 2,
+                        opacity: 8,
+                    },
+                    grab: {
+                        distance: 400,
+                        links: {
+                            opacity: 1,
+                        },
+                    },
+                    push: {
+                        quantity: 3,
+                    },
+                    remove: {
+                        quantity: 2,
+                    },
+                    repulse: {
+                        distance: 100,
+                        duration: 1,
+                    }
+                }
+            }
+        };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/jquery"></script>
+    <script src="/assets/js/particles.js"></script>

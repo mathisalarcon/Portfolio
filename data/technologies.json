@@ -1,0 +1,121 @@
+[
+    {
+        "name": "HTML",
+        "description": "HTML est un langage structurel utilisé pour décrire les pages web grâce à des balises.",
+        "tags": ["Frontend"],
+        "image": "/assets/icons/html.svg",
+        "link": "#"
+    },
+    {
+        "name": "CSS",
+        "description": "CSS est un langage de style utilisé pour mettre en forme les pages web.",
+        "tags": ["Frontend"],
+        "image": "/assets/icons/css.svg",
+        "link": "#"
+    },
+    {
+        "name": "JavaScript",
+        "description": "JavaScript est un langage de programmation utilisé pour rendre les pages web dynamiques.",
+        "tags": ["Frontend"],
+        "image": "/assets/icons/javascript.svg",
+        "link": "#"
+    },
+    {
+        "name": "Bootstrap",
+        "description": "Bootstrap est un framework CSS qui permet de créer des sites web responsive.",
+        "tags": ["Frontend"],
+        "image": "/assets/icons/bootstrap.svg",
+        "link": "#"
+    },
+    {
+        "name": "Tailwind CSS",
+        "description": "Tailwind CSS est un framework CSS qui permet de créer des sites web responsive.",
+        "tags": ["Frontend"],
+        "image": "/assets/icons/tailwindcss.svg",
+        "link": "#"
+    },
+    {
+        "name": "TypeScript",
+        "description": "TypeScript est un langage de programmation orienté objet qui permet de typer le JavaScript.",
+        "tags": ["Backend"],
+        "image": "/assets/icons/typescript.svg",
+        "link": "#"
+    },
+    {
+        "name": "Node.js",
+        "description": "Node.js est un environnement d'exécution JavaScript qui permet d'exécuter du JavaScript côté serveur.",
+        "tags": ["Backend"],
+        "image": "/assets/icons/nodejs.svg",
+        "link": "#"
+    },
+    {
+        "name": "Python",
+        "description": "Python est un langage de programmation polyvalent utilisé dans le développement web, l'analyse de données, l'intelligence artificielle, etc.",
+        "tags": ["Backend"],
+        "image": "/assets/icons/python.svg",
+        "link": "#"
+    },
+    {
+        "name": "Express.js",
+        "description": "Express.js est un framework sur Node.js qui permet de créer des applications web côté serveur.",
+        "tags": ["Backend"],
+        "image": "/assets/icons/expressjs.svg",
+        "link": "#"
+    },
+    {
+        "name": "Git",
+        "description": "Git est un logiciel de gestion de versions décentralisé.",
+        "tags": ["Versioning"],
+        "image": "/assets/icons/git.svg",
+        "link": "#"
+    },
+    {
+        "name": "jQuery",
+        "description": "jQuery est une bibliothèque JavaScript qui permet de manipuler le DOM.",
+        "tags": ["Frontend"],
+        "image": "/assets/icons/jquery.svg",
+        "link": "#"
+    },
+    {
+        "name": "MongoDB",
+        "description": "MongoDB est un système de gestion de base de données orienté documents.",
+        "tags": ["Database"],
+        "image": "/assets/icons/mongodb.svg",
+        "link": "#"
+    },
+    {
+        "name": "MySQL",
+        "description": "MySQL est un système de gestion de base de données relationnel.",
+        "tags": ["Database"],
+        "image": "/assets/icons/mysql.svg",
+        "link": "#"
+    },
+    {
+        "name": "Vue.js",
+        "description": "Vue.js est un framework JavaScript qui permet de créer des applications web côté client.",
+        "tags": ["Frontend"],
+        "image": "/assets/icons/vuejs.svg",
+        "link": "#"
+    },
+    {
+        "name": "Stripe",
+        "description": "Stripe est une plateforme de paiement en ligne.",
+        "tags": ["Paiement"],
+        "image": "/assets/icons/stripe.svg",
+        "link": "#"
+    },
+    {
+        "name": "Langage C",
+        "description": "Le langage C est un langage de programmation bas niveau.",
+        "tags": ["Applications"],
+        "image": "/assets/icons/c.svg",
+        "link": "#"
+    },
+    {
+        "name": "Arduino",
+        "description": "Arduino est une plateforme de prototypage électronique.",
+        "tags": ["Electronique"],
+        "image": "/assets/icons/arduino.svg",
+        "link": "#"
+    }
+]

@@ -1,0 +1,24 @@
+    <div class="w-full h-screen flex items-center justify-center px-12 xl:px-96 lg:px-72 md:px-32 text-center z-50">
+        <div class="flex flex-col items-center gap-4">
+            <p class="sr-top text-gray-300 text-6xl">
+                
+                <span class="font-bold from-primary-txt to-secondary-txt bg-gradient-to-r bg-clip-text text-transparent">Mathis Alarçon</span>
+            </p>
+            <p class="sr-left text-gray-400 text-lg">
+                Etudiant en 1e année d'ingénieur à l'Ecole Centrale d'Electronique
+            </p>
+            <p class="sr-right from-primary-txt to-secondary-txt bg-gradient-to-r bg-clip-text text-transparent font-bold">
+                Activement à la recherche d'un projet rémunéré !
+            </p>
+            <a href="#" class="px-5 py-2 border-2 rounded-md duration-200 text-gray-300 hover:text-secondary-txt hover:border-secondary-txt">
+                Télécharger mon CV
+            </a>
+            <div class="sr-bottom flex items-center justify-center text-lg h-12">
+                <% for(let connection of connections) { %>
+                    <a href="<%= connection.link %>" target="_blank" title="<%= connection.name %>" class="w-10 text-gray-300 hover:text-primary-txt hover:text-3xl duration-200">
+                        <i class="<%= connection.icon %>"></i>
+                    </a>
+                <% } %>
+            </div>
+        </div>
+    </div>

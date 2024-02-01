@@ -1,0 +1,22 @@
+<div id="technologies" class="w-full h-screen flex items-center justify-center px-12 xl:px-96 lg:px-72 md:px-32 text-center z-10">
+    <div>
+        <h1 class="sr-bottom relative text-gray-300 text-4xl font-bold w-max mx-auto px-4 py-3 before:absolute before:left-2 before:top-2 before:-z-10 before:w-full before:h-full before:border-2 before:border-secondary-txt after:absolute after:-left-2 after:-top-2 after:-z-10 after:w-full after:h-full after:border-2 after:border-primary-txt">
+            Les technologies que j'utilise
+        </h1>
+        <div class="mt-24 grid grid-cols-3 xl:grid-cols-5 md:grid-cols-4 gap-4">
+            <% for(let techno of technologies) { %>
+                <div class="sr-right cursor-pointer mx-auto rounded-md bg-slate-400/10 border-2 border-transparent hover:border-secondary-txt duration-200 w-28 h-28 flex flex-col gap-2 items-center justify-center hover:-mt-2 hover:mb-2">
+                    <img src="<%= techno.image %>" class="w-12 h-12" />
+                    <h2 class="text-gray-400 text-sm font-bold">
+                        <%= techno.name %>
+                    </h2>
+                    <div class="text-primary-txt font-bold flex items-center justify-center gap-2 text-xs -mt-1">
+                        <% for(let tag of techno.tags) { %>
+                        <span><%= tag %></span>
+                        <% } %>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</div>

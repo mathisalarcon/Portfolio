@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Github",
+        "icon": "bi bi-github",
+        "link": "#"
+    },
+    {
+        "name": "Discord",
+        "icon": "bi bi-discord",
+        "link": "#"
+    },
+    {
+        "name": "Mail",
+        "icon": "bi bi-envelope-at",
+        "link": "mailto:mathis.alarcon.pro@gmail.com"
+    }
+]
